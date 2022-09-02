@@ -4,7 +4,7 @@ import fetch from "node-fetch";
 
 async function run(): Promise<void> {
   try {
-    fetch("https://api.github.com/repos/akshanabha/trivia-app/releases/latest")
+    fetch("https://api.github.com/repos/arandomusernametouse/trivia-app/releases/latest")
     .then((data) => {
       return data.json() as Object
     })
