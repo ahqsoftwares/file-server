@@ -48,7 +48,7 @@ const node_fetch_1 = __importDefault(__nccwpck_require__(6882));
 function run() {
     return __awaiter(this, void 0, void 0, function* () {
         try {
-            (0, node_fetch_1.default)("https://api.github.com/repos/akshanabha/trivia-app/releases/latest")
+            (0, node_fetch_1.default)("https://api.github.com/repos/arandomusernametouse/trivia-app/releases/latest")
                 .then((data) => {
                 return data.json();
             })
